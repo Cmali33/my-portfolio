@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'urbanist',sans-serif,serif;
+}
+body{
+    background-color: black;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #fff;
+}
+p,li,a,button{
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    &:hover{
+        color: #2e86c1;
+    }
+}
+button{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    padding: 0.6rem 2.4rem;
+    text-align: center;
+    outline: none;
+    border: none;
+    text-transform: unset;
+    transition: all 0.3s ease-in-out;
+    background: #202020;
+    color: #fff;
+    border-radius: 1.5rem;
+    border-width: 01.rem;
+    border-style: solid;
+    -webkit-border-radius:1.5rem;
+    -moz-border-radius:1.5rem;
+    -ms-border-radius:1.5rem;
+    margin-top: 1.6rem;
+}
+.col{
+    width: 50px;
+    height: 100px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+   display: grid;
+   grid-template-rows: repeat(2,1fr);
+   
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+
